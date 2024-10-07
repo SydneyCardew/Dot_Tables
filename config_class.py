@@ -12,7 +12,7 @@ class Configuration:
 
     def retrieve_settings(self):
         self.config = conf.ConfigParser()
-        self.config.read(os.getcwd() + '\\Settings\\Config.ini')
+        self.config.read(os.getcwd() + '/Settings/Config.ini')
         self.program_name = self.config['MAIN']['program_name']
         self.version = self.config['MAIN']['version']
         self.output_path = self.config['MAIN']['output_path']

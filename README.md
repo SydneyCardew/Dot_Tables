@@ -24,7 +24,7 @@ is generated *without* header cells.
 
 To use Dot Table, direct it to a target csv file:
 
-`\> py dot_table.py test.csv`
+`/> py dot_table.py test.csv`
 
 Dot Tables will then generate a txt file in the `Output` folder, the contents of
 which can be copy-pasted straight into wikidot. For more convenient usage, the `-c`
