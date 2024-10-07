@@ -14,8 +14,8 @@ Dot Table accepts the following arguments:
 * `--advanced` or `-a` outputs a table in wikidot's 'advanced' format.
 * `--header` or `-hd` over-rides the configured header setting, making sure 
 the table is generated *with* header cells.
-* `--noheader` or `-nd` over-rides the configured header setting, making sure the table
-* is generated *without* header cells.
+* `--noheader` or `-nd` over-rides the configured header setting, making sure the table 
+is generated *without* header cells.
 * `--clip` or `-c` dumps the output directly to the clipboard.
 * `--help` or `-h` displays the command line help.
 * `--version` or `-v` displays the version.
