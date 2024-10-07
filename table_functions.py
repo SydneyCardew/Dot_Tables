@@ -1,4 +1,3 @@
-
 def simple_table(table_arr, header):
     table_str = ""
     for index, row in enumerate(table_arr):
@@ -14,9 +13,9 @@ def advanced_table(table_arr, header):
     for index, row in enumerate(table_arr):
         row_str = "[[row]]\n"
         for cell in row:
-            row_str += f'[[cell style="border: 1px solid silver;"]]\n' \
+            row_str += f'[[{"hcell" if header and index == 0 else "cell"} style="border: 1px solid silver;"]]\n' \
                        f'{cell}\n' \
-                       f'[[/cell]]\n'
+                       f'[[/{"hcell" if header and index == 0 else "cell"}]]\n'
         row_str += "[[/row]]\n"
         table_str += row_str
     table_str += "[[/table]]"
